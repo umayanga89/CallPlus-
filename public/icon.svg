@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="50%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#4f46e5" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#818cf8" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)" />
+  <circle cx="256" cy="256" r="170" fill="white" fill-opacity="0.08" />
+  <circle cx="256" cy="256" r="120" fill="white" fill-opacity="0.12" />
+  
+  <!-- Phone & Pulse waves -->
+  <g transform="translate(136, 136)">
+    <!-- Phone handset -->
+    <path d="M192 144 C192 186.4 157.6 220.8 115.2 220.8 C94.4 220.8 75.2 212.8 60.8 198.4 L46.4 212.8 C36.8 203.2 30.4 190.4 28.8 176 L52.8 152 C56 148.8 60.8 147.2 65.6 148.8 L92.8 156.8 C97.6 158.4 102.4 156.8 105.6 153.6 L124.8 134.4 C121.6 128 120 120 120 112 C120 104 121.6 96 124.8 89.6 L105.6 70.4 C102.4 67.2 97.6 65.6 92.8 67.2 L65.6 75.2 C60.8 76.8 56 75.2 52.8 72 L28.8 48 C30.4 33.6 36.8 20.8 46.4 11.2 L60.8 25.6 C75.2 11.2 94.4 3.2 115.2 3.2 C157.6 3.2 192 37.6 192 80 Z" fill="white" transform="rotate(-30 110 110)" />
+    <!-- Pulse signal -->
+    <path d="M30 120 L70 120 L95 80 L130 170 L165 95 L190 140 L210 120 L240 120" fill="none" stroke="#38bdf8" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+</svg>

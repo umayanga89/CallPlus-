@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="refresh" content="0; url=/" />
+  <title>Redirecting to CallPulse Dashboard...</title>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.getRegistrations().then(function(regs) {
+        regs.forEach(function(r) { r.unregister(); });
+      });
+    }
+    if ('caches' in window) {
+      caches.keys().then(function(keys) {
+        keys.forEach(function(k) { caches.delete(k); });
+      });
+    }
+    window.location.replace('/');
+  </script>
+</head>
+<body style="background:#090d16;color:#fff;display:flex;align-items:center;justify-content:center;height:100vh;font-family:sans-serif;">
+  <p>Dashboard එක වෙත පිවිසෙමින් පවතී... <a href="/" style="color:#38bdf8;">මෙහි ක්ලික් කරන්න</a></p>
+</body>
+</html>

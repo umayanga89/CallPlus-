@@ -1,0 +1,6 @@
+{
+  "name": "CallPulse - Mobile & Call Analytics Dashboard",
+  "description": "Smart mobile activity tracker, call logger with GPS location, office WhatsApp monitor, and daily app screen time analytics with APK export companion.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
